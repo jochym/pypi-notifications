@@ -1,0 +1,10 @@
+phonopy
+spglib
+ase
+jupyter
+elastic
+hypothesis
+ipycache
+jplephem
+sqp4
+skyfield
