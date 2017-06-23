@@ -6,7 +6,6 @@ source activate tracking
 
 conda update -q -y `cat yolk_checks.txt` >/dev/null
 
-echo ''
 
 for pkg in `cat yolk_checks.txt` ; do
 	yolk -q -U ${pkg}  2>/dev/null
