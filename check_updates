@@ -1,0 +1,13 @@
+#!/bin/bash
+
+PATH=~/miniconda/bin/:$PATH
+
+source activate tracking
+
+conda update -yq --all 
+
+for pkg in `cat requirements.txt` ; do
+	yolk -qU ${pkg}
+done
+
+source deactivate
