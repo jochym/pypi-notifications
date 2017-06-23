@@ -4,7 +4,7 @@ PATH=~/miniconda/bin/:$PATH
 
 source activate tracking
 
-conda update -q -y `cat yolk_checks.txt`
+conda update -q -y `cat yolk_checks.txt` >/dev/null
 
 echo ''
 
