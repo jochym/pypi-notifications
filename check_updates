@@ -4,10 +4,12 @@ PATH=~/miniconda/bin/:$PATH
 
 source activate tracking
 
-conda update -yq --all 
+conda update -q -y `cat yolk_checks.txt`
 
-for pkg in `cat requirements.txt` ; do
-	yolk -qU ${pkg}
+echo ''
+
+for pkg in `cat yolk_checks.txt` ; do
+	yolk -q -U ${pkg} 
 done
 
 source deactivate

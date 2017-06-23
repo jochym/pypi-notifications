@@ -1,7 +1,6 @@
 phonopy
 spglib
 ase
-jupyter
 elastic
 hypothesis
 ipycache
