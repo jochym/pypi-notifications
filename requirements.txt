@@ -8,3 +8,8 @@ ipycache
 jplephem
 sgp4
 skyfield
+notebook
+ipython
+astropy
+jupyterhub
+rise
